@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Firstserver</servlet-name>
+        <servlet-class>com.Firstserver</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestQues</servlet-name>
+        <servlet-class>TestQues</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RadioForm</servlet-name>
+        <servlet-class>com.RadioForm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DispatcherQues</servlet-name>
+        <servlet-class>com.DispatcherQues</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginForm</servlet-name>
+        <servlet-class>com.LoginForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Firstserver</servlet-name>
+        <url-pattern>/Firstserver</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestQues</servlet-name>
+        <url-pattern>/TestQues</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RadioForm</servlet-name>
+        <url-pattern>/RadioForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DispatcherQues</servlet-name>
+        <url-pattern>/DispatcherQues</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginForm</servlet-name>
+        <url-pattern>/LoginForm</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <!--    <welcome-file-list>
+        <welcome-file> RadioForm.html </welcome-file> 
+    </welcome-file-list>-->
+</web-app>
